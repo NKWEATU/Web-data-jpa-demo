@@ -164,7 +164,7 @@ public class QueryMethodsTest {
         });
     }
 
-    //Query method code to check findTop2ByOrderByPriceDesc (DSC means Ascending order)
+    //Query method code to check findTop2ByOrderByPriceDesc (DSC means Descending order)
     @Test
     void findTop2ByOrderByPriceDescMethod(){
         List<Product> products = productRepository.findTop2ByOrderByPriceDesc();
